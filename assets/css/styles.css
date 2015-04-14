@@ -6,6 +6,9 @@
   height: 0;
   overflow: hidden;
 }
+.logo-on-top{
+  padding-top: 35px;
+}
 .video-container iframe,
 .video-container object,
 .video-container embed {
