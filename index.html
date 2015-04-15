@@ -306,7 +306,7 @@
             $("#registerForm").submit(function (e) {
                 e.preventDefault();
                 var email = $("input#email").val();
-                $.post("/registerEmail", {"email": email}).done(function (data) {
+                $.post("/betaRegister", {"email": email}).done(function (data) {
                     $("input#email").val("");
                 });
             });
