@@ -544,6 +544,12 @@ section::after {
   font-family: 'Lato', Arial !important;
   -webkit-font-smoothing: antialiased;
 }
+
+.label-for-email {
+  font-family: 'Lato', Arial !important;
+  -webkit-font-smoothing: antialiased;
+}
+
 .tp-caption.large_white_bold {
   color: #ffffff;
   font-size: 65px;
