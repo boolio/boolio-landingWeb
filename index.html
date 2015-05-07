@@ -1,366 +1,55 @@
-<!doctype html>
-<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
-<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
-<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>boolio | got a question? </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>boolio | ask</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/fade.js"></script>
+    <link rel="icon" type="image/gif" href="./images/icon.gif">
+  </head>
 
-    <!-- Bootstrap 3.3.2 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <body>
+    <div class="container">
 
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
-
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link id="favicon" rel="icon" type="image/png" sizes="64x64" href="boolioIcon.png">
-
-    <script type="text/javascript" src="assets/js/modernizr.custom.32033.js"></script>
-
-</head>
-
-<body>
-
-    <div class="pre-loader">
-        <div class="load-con">
-            <img src="assets/img/freeze/logo.png" class="animated fadeInDown" alt="">
-            <div class="spinner">
-              <div class="bounce1"></div>
-              <div class="bounce2"></div>
-              <div class="bounce3"></div>
-            </div>
+      <div class="logo">
+        <div class="boolio-img-logo">
+          <img src="./images/bear.png" width="210" height="210">
         </div>
+      </div>
+
+      <div class="boolio-text">boolio</div>
+      <div class="boolio-subtext"> everybody has questions.</div>
+
+      <div class="link-to-android">
+        <center>
+          <a href="https://play.google.com/store/apps/details?id=io.boolio.android">
+            <img alt="Get it on Google Play"
+                  src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" 
+                  />
+            </a>
+        </center>
+      </div>
     </div>
 
-    <header>
-        <div class="tp-banner-container">
-            <div class="tp-banner" >
-                <ul>
-                    <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
-                        <!-- MAIN IMAGE -->
-                        <img src="assets/img/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption lfl fadeout hidden-xs"
-                            data-x="left"
-                            data-y="bottom"
-                            data-hoffset="30"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/Slides/hand-freeze.png" alt="">
-                        </div>
-
-                        <div class="tp-caption lfl fadeout visible-xs"
-                            data-x="left"
-                            data-y="center"
-                            data-hoffset="700"
-                            data-voffset="0"
-                            data-speed="500"
-                            data-start="700"
-                            data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/iphone-freeze.png" alt="">
-                        </div>
-
-                        <div class="tp-caption large_white_light sfl" data-x="550" data-y="center" data-hoffset="0" data-voffset="-150" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
-                           got a question?
-                        </div>
-                        <div class="tp-caption mediumlarge_light_white sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-85" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                           with simple, binary feedback
-                        </div>
-                        <div class="tp-caption mediumlarge_light_white sfr" data-x="550" data-y="center" data-hoffset="0" data-voffset="-35" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                           from friends and strangers,
-                        </div>
-                        <div class="tp-caption mediumlarge_light_white sfr" data-x="550" data-y="center" data-hoffset="0" data-voffset="15" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
-                           <b>boolio</b> has you covered.
-                        </div>
-
-
-                        <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
-                            <a href="#support" class="btn btn-primary inverse btn-lg">request an invite</a>
-                        </div>
-
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <div class="wrapper">
-        <section id="about">
-            <div class="container">
-
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>the idea</h1>
-                    <div class="divider"></div>
-                    <p></p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="about-item scrollpoint sp-effect5">
-                            <i class="fa fa-heart fa-2x"></i>
-                            <h3>intuitive</h3>
-                            <p>interacting with questions via simple gestures defines a natural way to express your thoughts.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <i class="fa fa-globe fa-2x"></i>
-                            <h3>on-the-go</h3>
-                            <p>get real-time notifications when friends solicit feedback, from anywhere, on any device.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <i class="fa fa-users fa-2x"></i>
-                            <h3>socially engaging</h3>
-                            <p>connect with communities you care about by asking for feedback or contributing your opinion.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect1">
-                            <i class="fa fa-bar-chart-o fa-2x"></i>
-                            <h3>narrating with data</h3>
-                            <p>with our APIs you can form insights through the data behind every question you've interacted with.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="features">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>the platform</h1>
-                    <div class="divider"></div>
-                    <p>changing the way you think about questions</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="javascript:void(0)">
-                                <i class="fa fa-cogs fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">simple</h3>
-                                binary nature
-                            </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="javascript:void(0)">
-                                <i class="fa fa-play fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">fast</h3>
-                                take action with one gesture
-                            </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="javascript:void(0)">
-                                <i class="fa fa-users fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">connect</h3>
-                                interact with people you care about
-                            </div>
-                        </div>
-                        <div class="media text-right feature">
-                            <a class="pull-right" href="javascript:void(0)">
-                                <i class="fa fa-retweet fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">follow</h3>
-                                get updated on topics you are interested in
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4" >
-                        <img src="assets/img/freeze/iphone-freeze.png" class="img-responsive scrollpoint sp-effect5" alt="">
-                    </div>
-                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
-                        <div class="media feature">
-                            <a class="pull-left" href="javascript:void(0)">
-                                <i class="fa fa-star-o fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">understand</h3>
-                                find out how people think
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="javascript:void(0)">
-                                <i class="fa fa-link fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">correlate</h3>
-                                link people and questions through data
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="javascript:void(0)">
-                                <i class="fa fa-database fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">data analytics</h3>
-                                statistical data research for you
-                            </div>
-                        </div>
-                        <div class="media feature">
-                            <a class="pull-left" href="javascript:void(0)">
-                                <i class="fa fa-fire fa-2x"></i>
-                            </a>
-                            <div class="media-body">
-                                <h3 class="media-heading">evolve</h3>
-                                make your own stories
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about">
-            <div class="container">
-
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>the team</h1>
-                    <div class="divider"></div>
-                    <p></p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/filippos.jpg" class="profPic">
-                            <h3>filippos</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/james.jpg" class="profPic">
-                            <h3>james</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/chris.jpg" class="profPic">
-                            <h3>chris</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect1">
-                            <img src="assets/img/ryan.jpg" class="profPic">
-                            <h3>ryan</h3>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/sawyer.jpg" class="profPic">
-                            <h3>sawyer</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/trent.jpg" class="profPic">
-                            <h3>trent</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <img src="assets/img/jen.jpg" class="profPic">
-                            <h3>jennifer</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="support" class="doublediagonal">
-            <div class="container">
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>stay in the loop</h1>
-                    <div class="divider"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <center>
-                            <div class="scrollpoint sp-effect1">
-                                <form id="registerForm" role="form" action="#" method="post">
-                                    <div class="form-group">
-                                        <input type="email" id="email"class="form-control" placeholder="enter your email here" style="max-width: 350px; text-align: center;">
-                                    </div>
-                                    <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-inbox"></i></button>
-                                </form>
-                            </div>
-                            </center>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div class="container">
-                <a href="#" class="scrollpoint sp-effect3">
-                    <img src="assets/img/logo-white.png" alt="" class="logo">
-                </a>
-                <div class="social">
-                    <a href="https://twitter.com/boolioapp" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="mailto:team@boolio.io" class="scrollpoint sp-effect3"><i class="fa fa-envelope fa-lg"></i></a>
-                </div>
-                <div class="rights">
-                    <p>copyright &copy; 2015</p>
-                </div>
-            </div>
-        </footer>
+    <div class="footer-nav">
+      <ul class="links">
+        <li><a class="nav-link" href="/about">about</a></li>
+        <li><a class="nav-link" href="/jobs">jobs</a></li>
+        <li><a class="nav-link" href="/faq">faq</a></li>
+      </ul>
+      <ul class="social-links">
+        <li class="social-link">
+          <a class="img-link" href="https://twitter.com/boolioapp" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+        </li>
+        <li class="social-link">
+          <a class="img-link" href="mailto:team@boolio.io" target="_blank"><i class="fa fa-envelope fa-lg"></i></a>
+        </li>
+      </ul>
     </div>
-
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/placeholdem.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
-    <script>
-        $(document).ready(function() {
-            appMaster.preLoader();
-            $("#registerForm").submit(function (e) {
-                e.preventDefault();
-                var email = $("input#email").val();
-
-                function validateEmail(x) {
-                   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-                   return re.test(x);
-                }
-
-                if (validateEmail(email)){
-                    $.post("/betaRegister", {"email": email}).done(function (data) {
-                        $("input#email").val("");
-                    });
-                }
-            });
-        });
-    </script>
-</body>
-
+  </body>
 </html>
