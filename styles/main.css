@@ -5,7 +5,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   body {
     background-color: #ffffff;
   }
@@ -25,6 +25,11 @@
     background-color: #57e2ca;
     margin: auto auto;
     overflow: hidden;
+  }
+
+  .text {
+    font-family: "Muli" !important;
+    line-height: 60px;
   }
 
   .boolio-text {
@@ -71,6 +76,10 @@
       margin: 0px;
       margin-bottom: 35px;
       font-size: 16px;
+    }
+    .text {
+      font-family: "Muli" !important;
+      line-height: 60px;
     }
   }
 
@@ -132,13 +141,24 @@
   .social-links {
     position: fixed;
     height: 60px;
-    right: 0px;
     bottom: -20px;
     display: inline-block;
     padding: 0px;
     margin: 0px;
     margin-right: 10px;
     z-index: 5;
+  }
+
+  .bottom-padding {
+    bottom:-10px;
+  }
+
+  .left {
+    left: 0px;
+  }
+
+  .right {
+    right: 0px;
   }
 
   .links li {
@@ -166,6 +186,15 @@
     margin-right: 25px;
   }
 
+  .social-link-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    margin-left: 25px;
+  }
+
   /* Footer Media */
   @media screen and (max-width:780px) {
     .social-links {
@@ -176,6 +205,16 @@
       margin-top: 40px;
       height: 10px;
     }
+
+    .social-link-left {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+      float: left;
+      margin-left: 25px;
+    }
+
     .social-link {
       float: none;
     }
@@ -219,4 +258,3 @@
       margin: 0px;
     }
   }
-  
