@@ -258,3 +258,11 @@
       margin: 0px;
     }
   }
+
+  .link-to-store center a img {
+    width: 200px;
+  }
+
+  .link-to-ios {
+    margin-top: 10px;
+  }
